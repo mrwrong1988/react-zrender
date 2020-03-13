@@ -8349,6 +8349,16 @@ react-is@^16.8.1, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha512-rPCkf/mWBtKc97aLL9/txD8DZdemK0vkA3JMLShjlJB3Pj3s+lpf1KaBzMfQrAmhMQB0n1cU/SUGgKKBCe837Q==
 
+react-reconciler@^0.25.0:
+  version "0.25.0"
+  resolved "https://registry.npm.taobao.org/react-reconciler/download/react-reconciler-0.25.0.tgz#0b3e895b20c4b5dec8de7a2b0098d25ff5503150"
+  integrity sha1-Cz6JWyDEtd7I3norAJjSX/VQMVA=
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    prop-types "^15.6.2"
+    scheduler "^0.19.0"
+
 react-scripts@3.4.0:
   version "3.4.0"
   resolved "https://registry.npm.taobao.org/react-scripts/download/react-scripts-3.4.0.tgz#f413680f0b5b937c8879ba1ffdae9b8c5b364bf5"
@@ -9058,6 +9068,11 @@ shallow-clone@^3.0.0:
   integrity sha512-/6KqX+GVUdqPuPPd2LxDDxzX6CAbjJehAAOKlNpqqUpAqPM6HeL8f+o3a+JsyGjn2lv0WY8UsTgUJjU9Ok55NA==
   dependencies:
     kind-of "^6.0.2"
+
+shallowequal@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/shallowequal/download/shallowequal-1.1.0.tgz#188d521de95b9087404fd4dcb68b13df0ae4e7f8"
+  integrity sha1-GI1SHelbkIdAT9TctosT3wrk5/g=
 
 shebang-command@^1.2.0:
   version "1.2.0"
@@ -10588,3 +10603,8 @@ yargs@^13.3.0:
     which-module "^2.0.0"
     y18n "^4.0.0"
     yargs-parser "^13.1.1"
+
+zrender@^4.3.0:
+  version "4.3.0"
+  resolved "https://registry.npm.taobao.org/zrender/download/zrender-4.3.0.tgz#9f056121b20bbae44414d287bf6a119ff7042661"
+  integrity sha1-nwVhIbILuuREFNKHv2oRn/cEJmE=

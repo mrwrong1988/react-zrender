@@ -1,10 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+// import ReactDOM from 'react-dom';
+import ReactZRenderer from './renderer/index';
 import './index.css';
-import App from './App';
+import App from './App/index';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactZRenderer.render(<App />, document.getElementById('root'), {renderer: 'canvas'});
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
